@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+archivesBaseName = 'provider-lobby'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+
+    maven { url 'https://oss.sonatype.org/content/groups/public/' }
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+}
+
+dependencies {
+    implementation project(":engine-spigot")
+    implementation project(":engine-core")
+
+    compileOnly files("C://API/spigot-1.8.8.jar")
+
+    implementation ("net.jitse:npclib-plugin:2.7.2-SNAPSHOT")
+}
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+}

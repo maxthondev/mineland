@@ -1,0 +1,5 @@
+# Motd que irá aparecer na lista de servidores dos jogadores.
+motd: "&6Mensagem aleatoria line1<newline>&3Mensagem aleatoria line2"
+
+# Quantidade de players maxima permitida na rede.
+maxPlayers: 1

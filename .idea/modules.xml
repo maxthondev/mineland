@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/engine-core/mineland.engine-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/engine-core/mineland.engine-core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/engine-proxy/mineland.engine-proxy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/engine-proxy/mineland.engine-proxy.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/engine-spigot/mineland.engine-spigot.main.iml" filepath="$PROJECT_DIR$/.idea/modules/engine-spigot/mineland.engine-spigot.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/provider-lobby/mineland.provider-lobby.main.iml" filepath="$PROJECT_DIR$/.idea/modules/provider-lobby/mineland.provider-lobby.main.iml" />
+    </modules>
+  </component>
+</project>

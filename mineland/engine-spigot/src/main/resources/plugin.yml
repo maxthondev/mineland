@@ -1,0 +1,7 @@
+name: engine-spigot
+main: me.mineland.spigot.SpigotMain
+authors: [Norman, Guilherme M]
+version: BETA
+depend: [ProtocolLib]
+description: Sistema de engine-spigot desenvolvido a MineLand
+website: github.com/matthewglhrm

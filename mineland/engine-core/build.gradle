@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+archivesBaseName = 'engine-core'
+
+dependencies {
+
+    compileOnly files(
+            "C:/Dependencias/FlameCord.jar",
+            "C:/Dependencias/spigot-1.8.8.jar"
+    )
+
+    implementation (
+            "org.mongodb:mongodb-driver:3.12.11",
+            'redis.clients:jedis:2.9.0',
+            'com.zaxxer:HikariCP:4.0.3',
+            'org.apache.commons:commons-pool2:2.11.1'
+    )
+}

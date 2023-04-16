@@ -1,0 +1,6 @@
+main: me.mineland.proxy.ProxyMain
+name: engine-proxy
+version: BETA
+description: Sistema de engine-proxy diretamente a MineLand
+authors: [Norman, Guilherme M]
+website: github.com/matthewglhrm

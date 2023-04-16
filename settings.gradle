@@ -1,0 +1,6 @@
+rootProject.name = 'mineland'
+include 'engine-core'
+include 'engine-spigot'
+include 'engine-proxy'
+include 'provider-lobby'
+

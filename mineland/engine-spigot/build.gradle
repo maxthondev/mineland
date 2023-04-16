@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+archivesBaseName = 'engine-spigot'
+
+dependencies {
+    implementation project(":engine-core")
+
+    compileOnly files("C://API/spigot-1.8.8.jar")
+    compileOnly files("C://API/ProtocolLib.jar")
+}
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+}

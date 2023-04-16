@@ -1,0 +1,7 @@
+name: api-lobby
+main: me.mineland.provider.SystemMain
+authors: [Norman, Guilherme M]
+version: BETA
+depend: [ProtocolLib]
+description: Sistema de server-lobby desenvolvido a MineLand
+website: github.com/matthewglhrm

@@ -1,0 +1,21 @@
+allprojects {
+    apply plugin: 'java'
+
+    afterEvaluate {
+        group = "me.mineland"
+        version = 'beta'
+
+        compileJava.options.encoding('UTF-8')
+
+        repositories {
+            mavenCentral()
+        }
+
+        dependencies {
+            def lombok = 'org.projectlombok:lombok:1.18.22'
+
+            compileOnly lombok
+            annotationProcessor lombok
+        }
+    }
+}
